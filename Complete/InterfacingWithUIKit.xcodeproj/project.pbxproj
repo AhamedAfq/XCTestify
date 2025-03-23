@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9804232C2D746A1E007AA497 /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9804232B2D746A1E007AA497 /* TestData.json */; };
+		98099FA42D9048420006423F /* TestData.json in Resources */ = {isa = PBXBuildFile; fileRef = 98099FA32D9048420006423F /* TestData.json */; };
 		98EC48652D525D6200CD0690 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC48642D525D6200CD0690 /* LandmarksUITests.swift */; };
 		98EC48672D525D6200CD0690 /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC48662D525D6200CD0690 /* LandmarksUITestsLaunchTests.swift */; };
 		98EC48732D525DFA00CD0690 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EC48722D525DFA00CD0690 /* BaseTest.swift */; };
@@ -65,7 +65,7 @@
 
 /* Begin PBXFileReference section */
 		73F95A9A1230AE62CF0AAC9F /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		9804232B2D746A1E007AA497 /* TestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = TestData.json; path = ../../../TestData.json; sourceTree = "<group>"; };
+		98099FA32D9048420006423F /* TestData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TestData.json; sourceTree = "<group>"; };
 		98EC48622D525D6200CD0690 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EC48642D525D6200CD0690 /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		98EC48662D525D6200CD0690 /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -141,11 +141,19 @@
 			name = Configuration;
 			sourceTree = "<group>";
 		};
+		98099FA52D9048540006423F /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				98099FA32D9048420006423F /* TestData.json */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
 		98EC48632D525D6200CD0690 /* LandmarksUITests */ = {
 			isa = PBXGroup;
 			children = (
+				98099FA52D9048540006423F /* TestData */,
 				98EC48742D525FBC00CD0690 /* AccessibilityIdentifiers */,
-				98EC48712D525D8900CD0690 /* TestData */,
 				98EC48702D525D7900CD0690 /* TestDataModels */,
 				98EC486F2D525D7300CD0690 /* Utilities */,
 				98EC486E2D525D6D00CD0690 /* Pages */,
@@ -186,14 +194,6 @@
 				98EC487D2D52721400CD0690 /* TestData.swift */,
 			);
 			path = TestDataModels;
-			sourceTree = "<group>";
-		};
-		98EC48712D525D8900CD0690 /* TestData */ = {
-			isa = PBXGroup;
-			children = (
-				9804232B2D746A1E007AA497 /* TestData.json */,
-			);
-			path = TestData;
 			sourceTree = "<group>";
 		};
 		98EC48742D525FBC00CD0690 /* AccessibilityIdentifiers */ = {
@@ -439,7 +439,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9804232C2D746A1E007AA497 /* TestData.json in Resources */,
+				98099FA42D9048420006423F /* TestData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
